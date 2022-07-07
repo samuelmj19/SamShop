@@ -12,6 +12,14 @@ import AppContext from '../context/AppContext';
 import useInitialState from '../hooks/useInitialState';
 import ProductDetail from '../containers/ProductDetail';
 
+
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
+
 function App() {
   const initialState = useInitialState();
   return (

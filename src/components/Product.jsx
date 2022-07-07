@@ -12,7 +12,16 @@ function Product({ product, handleAddToCart }) {
   }
   return (
     <Link to='/product-detail'>
-      <div className='Products-item' onClick={()=>showProductDetail(product)}>
+      <div className='Products-item' onClick={()=>showProductDetail(product)}
+        data-aos="fade-up"
+        data-aos-offset="200"
+        // data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        data-aos-anchor-placement="top-bottom"
+      >
           <img src={product.image} alt={product.tittle}/>
           <div className="Products-item-info">
               <h2>

@@ -1,6 +1,11 @@
 .Header {
   display: flex;
   justify-content: space-between;
+  padding: 10px 5%;
+  height: 70px;
+}
+.Header-title{
+  margin: 0;
 }
 .Header-checkout {
   display: flex;

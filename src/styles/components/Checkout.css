@@ -3,7 +3,9 @@
   grid-gap: 2rem;
   grid-row-gap: 1.5em;
   display: grid;
-  padding: 0 0 4em 0;
+  padding: 0 5% 4em 5%;
+  min-height: 500px;
+  margin-top: 70px;
 }
 .Checkout-item {
   display: flex;
@@ -54,4 +56,10 @@
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .Checkout{
+    grid-template-columns: auto;
+  }
 }

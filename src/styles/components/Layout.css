@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap");
 
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
@@ -8,8 +11,12 @@ body {
 }
 
 .Main {
-  padding: 10px;
-  grid-template-columns: minmax(auto, 768px);
+  /* padding: 10px 5%; */
+  
+  /* grid-template-columns: minmax(auto, 768px);
   display: grid;
-  justify-content: center;
+  justify-content: center; */
+}
+.Home{
+  /* padding: 0 5%; */
 }

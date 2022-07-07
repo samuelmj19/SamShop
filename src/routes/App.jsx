@@ -10,6 +10,7 @@ import NotFound from '../containers/NotFound';
 import Layout from '../components/Layout';
 import AppContext from '../context/AppContext';
 import useInitialState from '../hooks/useInitialState';
+import ProductDetail from '../containers/ProductDetail';
 
 function App() {
   const initialState = useInitialState();
@@ -19,6 +20,7 @@ function App() {
           <Layout>
               <Routes>
                   <Route exact path='/' element={<Home/>} />
+                  <Route exact path='/product-detail' element={<ProductDetail/>} />
                   <Route exact path='/checkout' element={<Checkout/>} />
                   <Route exact path='/checkout/information' element={<Information/>} />
                   <Route exact path='/checkout/payment' element={<Payment/>} />

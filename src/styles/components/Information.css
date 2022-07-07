@@ -3,7 +3,8 @@
   grid-gap: 2rem;
   grid-row-gap: 1.5em;
   display: grid;
-  margin: 0 0 4em 0;
+  margin: 0 5% 4em 5%;
+  min-height: 400px;
 }
 .Information-buttons {
   display: flex;

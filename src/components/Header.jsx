@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/components/Header.css';
 import AppContext from '../context/AppContext';
+import Search from './Search';
 
 function Header() {
   const {state} = useContext(AppContext);
@@ -9,11 +10,12 @@ function Header() {
 
   return (
     <div className='Header'>
-      <h1 className='Header-tittle'>
+      <h1 className='Header-title'>
         <Link to='/'>
           Sam Shop
         </Link>        
       </h1>
+      {/* <Search/> */}
       <div className="Header-checkout">
         <Link to='/checkout'>
         <i className="fa-solid fa-cart-shopping"></i>

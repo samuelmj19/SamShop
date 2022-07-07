@@ -1,0 +1,8 @@
+.Banner{
+    background: linear-gradient(45deg, #f20089, #2d00f7) ;
+    padding: 40px 0;
+    box-shadow: inset 10px 20px 105px 5px #5a5a5a;
+}
+.banner-img{
+    width: 70%;
+}

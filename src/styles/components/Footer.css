@@ -1,4 +1,9 @@
 .Footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 5%;
+  height: 300px;
+  background-color: #7e7f83;
 }

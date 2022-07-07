@@ -4,18 +4,18 @@ import '../styles/components/Products.css';
 import AppContext from '../context/AppContext';
 
 
-function Products() {
+function SimilarProducts({productType}) {
   const {state, addToCart} = useContext(AppContext);
   const {products} = state;
 
   const handleAddToCart = product => ()=>{
     addToCart(product)
   }
+  const filteredProducts = products.filter(item => item.type.includes(productType)).slice(1,5)
   return (
     <div className='Products'>
-      <h3 className='Products-title'>Products</h3>
         <div className="Products-items">
-            {products.map( product=>(
+            {filteredProducts.map( product=>(
                 <Product key={product.id} product={product} handleAddToCart={handleAddToCart}/>
             ))}
         </div>
@@ -23,4 +23,4 @@ function Products() {
   )
 }
 
-export default Products
+export default SimilarProducts

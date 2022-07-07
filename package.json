@@ -8,7 +8,9 @@
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
-    "lint": "eslint src/ --fix"
+    "lint": "eslint src/ --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Samuel Morales <samuelmj1999@gmail.com>",
@@ -37,5 +39,6 @@
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.3"
-  }
+  },
+  "homepage": "https://samuelmj19.github.io/SamShop"
 }

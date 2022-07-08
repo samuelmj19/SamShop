@@ -60,7 +60,7 @@ export default {
       },
       {
         'id': '9',
-        'image': 'https://i0.wp.com/www.ungeekencolombia.com//wp-content/uploads/2018/07/MSI-G27C2.png?ssl=1',
+        'image': 'https://www.itsitio.com/wp-content/uploads/2018/10/QJv_7Mnw-1024x576.png',
         'title': 'MSI G27C2: Monitor Gaming',
         'price': 320,
         'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -84,7 +84,7 @@ export default {
       },
       {
         'id': '12',
-        'image': 'https://www.seekpng.com/png/full/345-3454011_teclado-gamer-mecnico-t1-titan-rgb.png',
+        'image': 'https://arepa.s3.amazonaws.com/mug.png',
         'title': 'T1 Titan RGB',
         'price': 20,
         'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -108,7 +108,7 @@ export default {
       },
       {
         'id': '15',
-        'image': 'https://www.seekpng.com/png/full/46-460288_drum-sticks-png-images-free-download-clip-pearl.png',
+        'image': 'https://www.itsitio.com/wp-content/uploads/2018/10/QJv_7Mnw-1024x576.png',
         'title': 'Pearl Drum Set',
         'price': 620,
         'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -116,7 +116,7 @@ export default {
       },
       {
         'id': '16',
-        'image': 'https://www.seekpng.com/png/full/76-761048_soft-case-for-bass-trombone-bass.png',
+        'image': 'https://www.pngall.com/wp-content/uploads/5/Cool-Gaming-Headset-PNG-Image.png',
         'title': 'Bass case',
         'price': 20,
         'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -180,7 +180,7 @@ export default {
       },
       {
         'id': '24',
-        'image': 'https://i0.wp.com/www.ungeekencolombia.com//wp-content/uploads/2018/07/MSI-G27C2.png?ssl=1',
+        'image': 'https://www.itsitio.com/wp-content/uploads/2018/10/QJv_7Mnw-1024x576.png',
         'title': 'MSI G27C2: Monitor Gaming',
         'price': 320,
         'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -204,7 +204,7 @@ export default {
       },
       {
         'id': '27',
-        'image': 'https://www.seekpng.com/png/full/345-3454011_teclado-gamer-mecnico-t1-titan-rgb.png',
+        'image': 'https://arepa.s3.amazonaws.com/mug.png',
         'title': 'T1 Titan RGB',
         'price': 20,
         'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -228,7 +228,7 @@ export default {
       },
       {
         'id': '30',
-        'image': 'https://www.seekpng.com/png/full/46-460288_drum-sticks-png-images-free-download-clip-pearl.png',
+        'image': 'https://www.itsitio.com/wp-content/uploads/2018/10/QJv_7Mnw-1024x576.png',
         'title': 'Pearl Drum Set',
         'price': 620,
         'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -236,7 +236,7 @@ export default {
       },
       {
         'id': '31',
-        'image': 'https://www.seekpng.com/png/full/76-761048_soft-case-for-bass-trombone-bass.png',
+        'image': 'https://www.pngall.com/wp-content/uploads/5/Cool-Gaming-Headset-PNG-Image.png',
         'title': 'Bass case',
         'price': 20,
         'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',

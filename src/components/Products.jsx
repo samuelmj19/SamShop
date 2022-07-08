@@ -16,11 +16,11 @@ function Products() {
     <div className='Products'
       data-aos="fade-up"
       data-aos-offset="200"
-      data-aos-delay="50"
+      // data-aos-delay="50"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
-      data-aos-once="false"
+      data-aos-once="true"
       data-aos-anchor-placement="top-bottom"
     >
       <h3 className='Products-title'>Products</h3>

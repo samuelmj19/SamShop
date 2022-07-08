@@ -16,13 +16,13 @@ function Product({ product, handleAddToCart }) {
         data-aos="fade-up"
         data-aos-offset="200"
         // data-aos-delay="50"
-        data-aos-duration="1000"
+        data-aos-duration="500"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="true"
         data-aos-anchor-placement="top-bottom"
       >
-          <img src={product.image} alt={product.tittle}/>
+          <img src={product.image} alt={product.tittle} loading='lazy'/>
           <div className="Products-item-info">
               <h2>
                   {product.title}
